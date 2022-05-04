@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30D03218281F029E00D4BBEB /* ResultLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D03217281F029E00D4BBEB /* ResultLogic.swift */; };
+		30D0321A2821797E00D4BBEB /* MathJSResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D032192821797E00D4BBEB /* MathJSResultView.swift */; };
+		30D0321C2821B99D00D4BBEB /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D0321B2821B99D00D4BBEB /* ResultViewController.swift */; };
+		30D032202821BAE600D4BBEB /* MathOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D0321F2821BAE600D4BBEB /* MathOperation.swift */; };
+		30D032222821BB2200D4BBEB /* MathJSAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D032212821BB2200D4BBEB /* MathJSAPI.swift */; };
+		30D032252821BC0400D4BBEB /* OperationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D032242821BC0400D4BBEB /* OperationData.swift */; };
+		30D032272821BC2200D4BBEB /* MathJSWaitingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D032262821BC2200D4BBEB /* MathJSWaitingView.swift */; };
 		30D15181281EB58000BBDBE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D15180281EB58000BBDBE4 /* AppDelegate.swift */; };
-		30D15183281EB58000BBDBE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D15182281EB58000BBDBE4 /* SceneDelegate.swift */; };
-		30D15185281EB58000BBDBE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D15184281EB58000BBDBE4 /* ViewController.swift */; };
-		30D15188281EB58000BBDBE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D15186281EB58000BBDBE4 /* Main.storyboard */; };
+		30D15185281EB58000BBDBE4 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D15184281EB58000BBDBE4 /* CalculatorViewController.swift */; };
 		30D1518A281EB58400BBDBE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D15189281EB58400BBDBE4 /* Assets.xcassets */; };
 		30D1518D281EB58400BBDBE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D1518B281EB58400BBDBE4 /* LaunchScreen.storyboard */; };
-		30D15198281EB58400BBDBE4 /* BinarAppRecruitmentTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D15197281EB58400BBDBE4 /* BinarAppRecruitmentTaskTests.swift */; };
+		30D15198281EB58400BBDBE4 /* BinarAppsRecruitmentTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D15197281EB58400BBDBE4 /* BinarAppsRecruitmentTaskTests.swift */; };
+		30D151A3281EC5F800BBDBE4 /* CalculatorLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D151A2281EC5F800BBDBE4 /* CalculatorLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +33,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		30D1517D281EB58000BBDBE4 /* BinarAppRecruitmentTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BinarAppRecruitmentTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D03217281F029E00D4BBEB /* ResultLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultLogic.swift; sourceTree = "<group>"; };
+		30D032192821797E00D4BBEB /* MathJSResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathJSResultView.swift; sourceTree = "<group>"; };
+		30D0321B2821B99D00D4BBEB /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		30D0321F2821BAE600D4BBEB /* MathOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathOperation.swift; sourceTree = "<group>"; };
+		30D032212821BB2200D4BBEB /* MathJSAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathJSAPI.swift; sourceTree = "<group>"; };
+		30D032242821BC0400D4BBEB /* OperationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationData.swift; sourceTree = "<group>"; };
+		30D032262821BC2200D4BBEB /* MathJSWaitingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathJSWaitingView.swift; sourceTree = "<group>"; };
+		30D1517D281EB58000BBDBE4 /* BinarAppsRecruitmentTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BinarAppsRecruitmentTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D15180281EB58000BBDBE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		30D15182281EB58000BBDBE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		30D15184281EB58000BBDBE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		30D15187281EB58000BBDBE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30D15184281EB58000BBDBE4 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		30D15189281EB58400BBDBE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30D1518C281EB58400BBDBE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		30D1518E281EB58400BBDBE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		30D15193281EB58400BBDBE4 /* BinarAppRecruitmentTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinarAppRecruitmentTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		30D15197281EB58400BBDBE4 /* BinarAppRecruitmentTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarAppRecruitmentTaskTests.swift; sourceTree = "<group>"; };
+		30D1518E281EB58400BBDBE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = BinarAppsRecruitmentTask/Info.plist; sourceTree = SOURCE_ROOT; };
+		30D15193281EB58400BBDBE4 /* BinarAppsRecruitmentTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinarAppsRecruitmentTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D15197281EB58400BBDBE4 /* BinarAppsRecruitmentTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarAppsRecruitmentTaskTests.swift; sourceTree = "<group>"; };
 		30D15199281EB58400BBDBE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30D151A2281EC5F800BBDBE4 /* CalculatorLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +70,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30D0321D2821B9CD00D4BBEB /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				30D032292821BDCB00D4BBEB /* Controller */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		30D0321E2821B9DE00D4BBEB /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				30D0322B2821BE3100D4BBEB /* View */,
+				30D0322A2821BE1C00D4BBEB /* Controller */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		30D032232821BB3D00D4BBEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				30D032242821BC0400D4BBEB /* OperationData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		30D032282821BDBA00D4BBEB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				30D032232821BB3D00D4BBEB /* Model */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		30D032292821BDCB00D4BBEB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				30D15184281EB58000BBDBE4 /* CalculatorViewController.swift */,
+				30D151A2281EC5F800BBDBE4 /* CalculatorLogic.swift */,
+				30D0321F2821BAE600D4BBEB /* MathOperation.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		30D0322A2821BE1C00D4BBEB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				30D0321B2821B99D00D4BBEB /* ResultViewController.swift */,
+				30D03217281F029E00D4BBEB /* ResultLogic.swift */,
+				30D032212821BB2200D4BBEB /* MathJSAPI.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		30D0322B2821BE3100D4BBEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				30D032192821797E00D4BBEB /* MathJSResultView.swift */,
+				30D032262821BC2200D4BBEB /* MathJSWaitingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		30D15174281EB58000BBDBE4 = {
 			isa = PBXGroup;
 			children = (
-				30D1517F281EB58000BBDBE4 /* BinarAppRecruitmentTask */,
-				30D15196281EB58400BBDBE4 /* BinarAppRecruitmentTaskTests */,
+				30D1517F281EB58000BBDBE4 /* BinarAppsRecruitmentTask */,
+				30D15196281EB58400BBDBE4 /* BinarAppsRecruitmentTaskTests */,
 				30D1517E281EB58000BBDBE4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,41 +144,41 @@
 		30D1517E281EB58000BBDBE4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				30D1517D281EB58000BBDBE4 /* BinarAppRecruitmentTask.app */,
-				30D15193281EB58400BBDBE4 /* BinarAppRecruitmentTaskTests.xctest */,
+				30D1517D281EB58000BBDBE4 /* BinarAppsRecruitmentTask.app */,
+				30D15193281EB58400BBDBE4 /* BinarAppsRecruitmentTaskTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		30D1517F281EB58000BBDBE4 /* BinarAppRecruitmentTask */ = {
+		30D1517F281EB58000BBDBE4 /* BinarAppsRecruitmentTask */ = {
 			isa = PBXGroup;
 			children = (
+				30D032282821BDBA00D4BBEB /* Common */,
+				30D0321D2821B9CD00D4BBEB /* Calculator */,
+				30D0321E2821B9DE00D4BBEB /* Result */,
 				30D15180281EB58000BBDBE4 /* AppDelegate.swift */,
-				30D15182281EB58000BBDBE4 /* SceneDelegate.swift */,
-				30D15184281EB58000BBDBE4 /* ViewController.swift */,
-				30D15186281EB58000BBDBE4 /* Main.storyboard */,
 				30D15189281EB58400BBDBE4 /* Assets.xcassets */,
 				30D1518B281EB58400BBDBE4 /* LaunchScreen.storyboard */,
 				30D1518E281EB58400BBDBE4 /* Info.plist */,
 			);
-			path = BinarAppRecruitmentTask;
+			path = BinarAppsRecruitmentTask;
 			sourceTree = "<group>";
 		};
-		30D15196281EB58400BBDBE4 /* BinarAppRecruitmentTaskTests */ = {
+		30D15196281EB58400BBDBE4 /* BinarAppsRecruitmentTaskTests */ = {
 			isa = PBXGroup;
 			children = (
-				30D15197281EB58400BBDBE4 /* BinarAppRecruitmentTaskTests.swift */,
+				30D15197281EB58400BBDBE4 /* BinarAppsRecruitmentTaskTests.swift */,
 				30D15199281EB58400BBDBE4 /* Info.plist */,
 			);
-			path = BinarAppRecruitmentTaskTests;
+			path = BinarAppsRecruitmentTaskTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		30D1517C281EB58000BBDBE4 /* BinarAppRecruitmentTask */ = {
+		30D1517C281EB58000BBDBE4 /* BinarAppsRecruitmentTask */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30D1519C281EB58400BBDBE4 /* Build configuration list for PBXNativeTarget "BinarAppRecruitmentTask" */;
+			buildConfigurationList = 30D1519C281EB58400BBDBE4 /* Build configuration list for PBXNativeTarget "BinarAppsRecruitmentTask" */;
 			buildPhases = (
 				30D15179281EB58000BBDBE4 /* Sources */,
 				30D1517A281EB58000BBDBE4 /* Frameworks */,
@@ -114,14 +188,14 @@
 			);
 			dependencies = (
 			);
-			name = BinarAppRecruitmentTask;
+			name = BinarAppsRecruitmentTask;
 			productName = BinarAppRecruitmentTask;
-			productReference = 30D1517D281EB58000BBDBE4 /* BinarAppRecruitmentTask.app */;
+			productReference = 30D1517D281EB58000BBDBE4 /* BinarAppsRecruitmentTask.app */;
 			productType = "com.apple.product-type.application";
 		};
-		30D15192281EB58400BBDBE4 /* BinarAppRecruitmentTaskTests */ = {
+		30D15192281EB58400BBDBE4 /* BinarAppsRecruitmentTaskTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30D1519F281EB58400BBDBE4 /* Build configuration list for PBXNativeTarget "BinarAppRecruitmentTaskTests" */;
+			buildConfigurationList = 30D1519F281EB58400BBDBE4 /* Build configuration list for PBXNativeTarget "BinarAppsRecruitmentTaskTests" */;
 			buildPhases = (
 				30D1518F281EB58400BBDBE4 /* Sources */,
 				30D15190281EB58400BBDBE4 /* Frameworks */,
@@ -132,9 +206,9 @@
 			dependencies = (
 				30D15195281EB58400BBDBE4 /* PBXTargetDependency */,
 			);
-			name = BinarAppRecruitmentTaskTests;
+			name = BinarAppsRecruitmentTaskTests;
 			productName = BinarAppRecruitmentTaskTests;
-			productReference = 30D15193281EB58400BBDBE4 /* BinarAppRecruitmentTaskTests.xctest */;
+			productReference = 30D15193281EB58400BBDBE4 /* BinarAppsRecruitmentTaskTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -156,7 +230,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 30D15178281EB58000BBDBE4 /* Build configuration list for PBXProject "BinarAppRecruitmentTask" */;
+			buildConfigurationList = 30D15178281EB58000BBDBE4 /* Build configuration list for PBXProject "BinarAppsRecruitmentTask" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -169,8 +243,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				30D1517C281EB58000BBDBE4 /* BinarAppRecruitmentTask */,
-				30D15192281EB58400BBDBE4 /* BinarAppRecruitmentTaskTests */,
+				30D1517C281EB58000BBDBE4 /* BinarAppsRecruitmentTask */,
+				30D15192281EB58400BBDBE4 /* BinarAppsRecruitmentTaskTests */,
 			);
 		};
 /* End PBXProject section */
@@ -182,7 +256,6 @@
 			files = (
 				30D1518D281EB58400BBDBE4 /* LaunchScreen.storyboard in Resources */,
 				30D1518A281EB58400BBDBE4 /* Assets.xcassets in Resources */,
-				30D15188281EB58000BBDBE4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +273,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30D15185281EB58000BBDBE4 /* ViewController.swift in Sources */,
+				30D15185281EB58000BBDBE4 /* CalculatorViewController.swift in Sources */,
+				30D032202821BAE600D4BBEB /* MathOperation.swift in Sources */,
+				30D03218281F029E00D4BBEB /* ResultLogic.swift in Sources */,
+				30D032272821BC2200D4BBEB /* MathJSWaitingView.swift in Sources */,
+				30D032222821BB2200D4BBEB /* MathJSAPI.swift in Sources */,
+				30D151A3281EC5F800BBDBE4 /* CalculatorLogic.swift in Sources */,
+				30D0321A2821797E00D4BBEB /* MathJSResultView.swift in Sources */,
 				30D15181281EB58000BBDBE4 /* AppDelegate.swift in Sources */,
-				30D15183281EB58000BBDBE4 /* SceneDelegate.swift in Sources */,
+				30D0321C2821B99D00D4BBEB /* ResultViewController.swift in Sources */,
+				30D032252821BC0400D4BBEB /* OperationData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30D15198281EB58400BBDBE4 /* BinarAppRecruitmentTaskTests.swift in Sources */,
+				30D15198281EB58400BBDBE4 /* BinarAppsRecruitmentTaskTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,20 +299,12 @@
 /* Begin PBXTargetDependency section */
 		30D15195281EB58400BBDBE4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 30D1517C281EB58000BBDBE4 /* BinarAppRecruitmentTask */;
+			target = 30D1517C281EB58000BBDBE4 /* BinarAppsRecruitmentTask */;
 			targetProxy = 30D15194281EB58400BBDBE4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		30D15186281EB58000BBDBE4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				30D15187281EB58000BBDBE4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		30D1518B281EB58400BBDBE4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,6 +366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -348,6 +421,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -363,13 +437,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BinarAppRecruitmentTask/Info.plist;
+				INFOPLIST_FILE = BinarAppsRecruitmentTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tp.BinarAppRecruitmentTask;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = tp.BinarAppsRecruitmentTask;
+				PRODUCT_NAME = BinarAppsRecruitmentTask;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -380,13 +454,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BinarAppRecruitmentTask/Info.plist;
+				INFOPLIST_FILE = BinarAppsRecruitmentTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tp.BinarAppRecruitmentTask;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = tp.BinarAppsRecruitmentTask;
+				PRODUCT_NAME = BinarAppsRecruitmentTask;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -398,7 +472,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BinarAppRecruitmentTaskTests/Info.plist;
+				INFOPLIST_FILE = BinarAppsRecruitmentTaskTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -409,7 +483,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BinarAppRecruitmentTask.app/BinarAppRecruitmentTask";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BinarAppsRecruitmentTask.app/BinarAppsRecruitmentTask";
 			};
 			name = Debug;
 		};
@@ -419,7 +493,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BinarAppRecruitmentTaskTests/Info.plist;
+				INFOPLIST_FILE = BinarAppsRecruitmentTaskTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -430,14 +504,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BinarAppRecruitmentTask.app/BinarAppRecruitmentTask";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BinarAppsRecruitmentTask.app/BinarAppsRecruitmentTask";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		30D15178281EB58000BBDBE4 /* Build configuration list for PBXProject "BinarAppRecruitmentTask" */ = {
+		30D15178281EB58000BBDBE4 /* Build configuration list for PBXProject "BinarAppsRecruitmentTask" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				30D1519A281EB58400BBDBE4 /* Debug */,
@@ -446,7 +520,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30D1519C281EB58400BBDBE4 /* Build configuration list for PBXNativeTarget "BinarAppRecruitmentTask" */ = {
+		30D1519C281EB58400BBDBE4 /* Build configuration list for PBXNativeTarget "BinarAppsRecruitmentTask" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				30D1519D281EB58400BBDBE4 /* Debug */,
@@ -455,7 +529,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30D1519F281EB58400BBDBE4 /* Build configuration list for PBXNativeTarget "BinarAppRecruitmentTaskTests" */ = {
+		30D1519F281EB58400BBDBE4 /* Build configuration list for PBXNativeTarget "BinarAppsRecruitmentTaskTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				30D151A0281EB58400BBDBE4 /* Debug */,
